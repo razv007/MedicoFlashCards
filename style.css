@@ -2096,7 +2096,6 @@ animation: flash .5s infinite;
   background-color: initial;
   background-position: 0 0;
   color: crimson ;
-  background-color: rgba(254, 63, 63, 0.113)
 }
 
 .shopping-cart .button-buy:active {
