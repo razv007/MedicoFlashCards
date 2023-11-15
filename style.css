@@ -768,8 +768,8 @@ a {
   
   .card-carousel {
     --card-width: 80%;
-    --card-max-width: 410px;
-    --card-height: 650px;
+    --card-max-width: 346px;
+    --card-height: 550px;
     z-index: 1;
     position: relative;
     margin: 0 auto;
@@ -2077,7 +2077,7 @@ animation: flash .5s infinite;
   font-size: 26px;
   font-weight: 800;
   line-height: 16px;
-  min-height: 45px;
+  min-height: 60px;
   outline: 0;
   padding: 20px 14px;
   margin-bottom: 1rem;
@@ -2088,6 +2088,10 @@ animation: flash .5s infinite;
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: middle;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .shopping-cart .button-buy:hover,
@@ -2662,6 +2666,11 @@ body::-webkit-scrollbar {
 		text-align: center;
 		padding-top: 3rem;
 	}
+  .shopping-cart .button-buy
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   }
   @media screen and (max-width: 720px) {
     
